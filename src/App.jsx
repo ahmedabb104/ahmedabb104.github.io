@@ -10,9 +10,9 @@ import Footer from './components/Footer'
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
-    // Check localStorage or default to light mode
+    // Check localStorage or default to dark mode
     const saved = localStorage.getItem('darkMode')
-    return saved ? JSON.parse(saved) : false
+    return saved ? JSON.parse(saved) : true
   })
 
   useEffect(() => {
