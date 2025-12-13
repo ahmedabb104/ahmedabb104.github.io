@@ -67,3 +67,16 @@
   animation: blink 1s infinite;
 }
 
+@keyframes fall {
+  from {
+    transform: translateY(0) rotate(0deg);
+  }
+  to {
+    transform: translateY(calc(100vh + 20%)) rotate(360deg);
+  }
+}
+
+.snowflake {
+  will-change: transform;
+}
+

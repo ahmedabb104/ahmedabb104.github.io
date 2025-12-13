@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Snowflakes from './Snowflakes'
 
 const Hero = () => {
   const [headshotVisible, setHeadshotVisible] = useState(false)
@@ -60,9 +61,10 @@ const Hero = () => {
   return (
     <section 
       id="hero" 
-      className="min-h-screen flex items-center justify-center section-padding bg-gradient-to-br from-primary-50 to-white dark:from-gray-900 dark:to-gray-800"
+      className="relative min-h-screen flex items-center justify-center section-padding bg-gradient-to-br from-primary-50 to-white dark:from-gray-900 dark:to-gray-800 overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto text-center">
+      <Snowflakes />
+      <div className="relative max-w-7xl mx-auto text-center z-10">
         <div className="mb-8 flex justify-center">
           <div className="relative">
             <img
