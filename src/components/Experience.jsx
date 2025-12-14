@@ -1,4 +1,5 @@
 import { useFadeInOnScroll } from '../hooks/useFadeInOnScroll'
+import NetworkAnimation from './NetworkAnimation'
 
 const ExperienceItem = ({ exp, index, isEven }) => {
   const [ref, isVisible] = useFadeInOnScroll({ threshold: 0.2 })
@@ -92,9 +93,10 @@ const Experience = () => {
   return (
     <section 
       id="experience" 
-      className="section-padding bg-gray-50 dark:bg-gray-800"
+      className="relative section-padding bg-gray-50 dark:bg-gray-800 overflow-hidden"
     >
-      <div className="max-w-6xl mx-auto">
+      <NetworkAnimation />
+      <div className="relative max-w-6xl mx-auto z-10">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
           Work Experience
         </h2>

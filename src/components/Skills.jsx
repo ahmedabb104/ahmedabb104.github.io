@@ -1,4 +1,5 @@
 import { useFadeInOnScroll } from '../hooks/useFadeInOnScroll'
+import CodeAnimation from './CodeAnimation'
 
 const Skills = () => {
   const [ref, isVisible] = useFadeInOnScroll({ threshold: 0.1 })
@@ -47,11 +48,12 @@ const Skills = () => {
     <section 
       id="skills" 
       ref={ref}
-      className={`section-padding bg-gray-50 dark:bg-gray-800 transition-all duration-700 ease-out ${
+      className={`relative section-padding bg-gray-50 dark:bg-gray-800 overflow-hidden transition-all duration-700 ease-out ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
       }`}
     >
-      <div className="max-w-7xl mx-auto">
+      <CodeAnimation />
+      <div className="relative max-w-7xl mx-auto z-10">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
           Skills
         </h2>
