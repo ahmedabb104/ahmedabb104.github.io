@@ -110,7 +110,7 @@ const Experience = () => {
       company: 'Thri5',
       role: 'Data Scientist',
       period: 'May 2025 – Dec 2025',
-      description: ['\"Data Scientist\" would be a bit of an understatement. At Thri5, an ambiguous startup envionment, I did a little bit of everything as an intern. I designed and built dozens of weekly data detections (rules + ML, scoring), analyzed large datasets to extract actionable insights for non-technical stakeholders, designed and built a scalable ML pipeline, explored building AI agents, and took  ownership of analyzing the impact of our first customer pilot (thus securing the startup\'s first commercial deal).',
+      description: ['\"Data Scientist\" would be a bit of an understatement.', 'At this startup, I did a little bit of everything as an intern. I designed and built dozens of weekly data detections (rules + ML, scoring), analyzed large datasets to extract actionable insights for non-technical stakeholders, designed and built a scalable ML pipeline, explored building AI agents, and took  ownership of analyzing the impact of our first customer pilot (thus securing the startup\'s first commercial deal).',
       'It was a busy 8 months, but I learned a lot and had a lot of fun building a product from the ground up!'
       ]
     },

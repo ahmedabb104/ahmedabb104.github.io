@@ -120,7 +120,7 @@ const Hero = () => {
 
         {/* Scroll Indicator */}
         <div className="flex flex-col items-center gap-2 animate-fade-in-up cursor-pointer" onClick={scrollToAbout}>
-          <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">
+          <p className="text-base text-gray-600 dark:text-gray-400 font-medium">
             Explore my journey below
           </p>
           <button
@@ -128,7 +128,7 @@ const Hero = () => {
             className="animate-bounce text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
             aria-label="Scroll to about section"
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
             </svg>
           </button>
