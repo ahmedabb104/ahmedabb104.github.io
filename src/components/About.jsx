@@ -20,7 +20,7 @@ const About = () => {
             I'm currently working at Thri5, an early stage startup, as a Data Scientist. I specialize in developing and deploying ML models, and building scalable data pipelines.
           </p>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mt-4">
-            My main interest areas are reinforcement learning, data analytics, and MLOps. I continually expand my knowledge by keeping on top of the latest research in ANI and AGI.
+            My main interest areas are reinforcement learning, data analytics, and MLOps. I like to continually expand my knowledge by reading the latest research papers in AI.
           </p>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mt-4">
             Throughout my early career, I have successfully deployed several features end-to-end, from ML models to data pipelines serving hundreds of users. I thrive in fast-paced collaborative 
