@@ -165,7 +165,7 @@ const Contact = () => {
                   ? 'border-red-500 dark:border-red-400'
                   : 'border-gray-300 dark:border-gray-600'
               } bg-white dark:bg-gray-800 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary-500 dark:focus:ring-primary-400 resize-none`}
-              placeholder="Your message here..."
+              placeholder="Your message here... (or just DM me on Linkedin!)"
             />
             {errors.message && (
               <p className="mt-1 text-sm text-red-500 dark:text-red-400">{errors.message}</p>

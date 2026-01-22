@@ -54,6 +54,13 @@ const Hero = () => {
     }
   }
 
+  const scrollToAbout = () => {
+    const element = document.getElementById('about')
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   const openResume = () => {
     window.open('/resume.pdf', '_blank')
   }
@@ -64,7 +71,7 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center section-padding bg-gradient-to-br from-primary-50 to-white dark:from-gray-900 dark:to-gray-800 overflow-hidden"
     >
       <Snowflakes />
-      <div className="relative max-w-7xl mx-auto text-center z-10">
+      <div className="relative max-w-7xl mx-auto text-center z-10 w-full">
         <div className="mb-8 flex justify-center">
           <div className="relative">
             <img
@@ -94,7 +101,7 @@ const Hero = () => {
           Data Scientist | AI/ML Engineer
         </p>
         
-        <div className={`flex flex-col sm:flex-row gap-4 justify-center transition-all duration-700 ease-out ${
+        <div className={`flex flex-col sm:flex-row gap-4 justify-center transition-all duration-700 ease-out mb-16 ${
           buttonsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
         }`}>
           <button
@@ -108,6 +115,22 @@ const Hero = () => {
             className="px-8 py-3 bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-900 dark:text-white border-2 border-primary-600 dark:border-primary-400 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >
             View Resume
+          </button>
+        </div>
+
+        {/* Scroll Indicator */}
+        <div className="flex flex-col items-center gap-2 animate-fade-in-up cursor-pointer" onClick={scrollToAbout}>
+          <p className="text-sm text-gray-600 dark:text-gray-400 font-medium">
+            Explore my journey below
+          </p>
+          <button
+            onClick={scrollToAbout}
+            className="animate-bounce text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 transition-colors"
+            aria-label="Scroll to about section"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
           </button>
         </div>
       </div>

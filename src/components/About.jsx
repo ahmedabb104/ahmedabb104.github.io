@@ -17,17 +17,14 @@ const About = () => {
         </h2>
         <div className="prose prose-lg dark:prose-invert max-w-none">
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
-            I'm currently working at Thri5, an early stage startup, as a Data Scientist. I specialize in developing ML models, and building scalable data pipelines and ML infrastructure.
+            I'm currently working at Thri5, an early stage startup, as a Data Scientist. I specialize in developing and deploying ML models, and building scalable data pipelines.
           </p>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mt-4">
-            My expertise spans across NLP, MLOps practices 
-            for model deployment and monitoring, and data analytics. I am passionate about 
-            solving complex problems using data-driven approaches and building AI systems that make a 
-            meaningful impact.
+            My main interest areas are reinforcement learning, data analytics, and MLOps. I continually expand my knowledge by keeping on top of the latest research in ANI and AGI.
           </p>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mt-4">
-            Throughout my early career, I have successfully deployed several features end-to-end, from ML models to AI Agents serving hundreds of users. I thrive in fast-paced collaborative 
-            environments and enjoy keeping up to date with the latest tech.
+            Throughout my early career, I have successfully deployed several features end-to-end, from ML models to data pipelines serving hundreds of users. I thrive in fast-paced collaborative 
+            environments and enjoy building scalable solutions to challenging problems.
           </p>
         </div>
       </div>
