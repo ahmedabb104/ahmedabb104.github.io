@@ -25,6 +25,9 @@ const Projects = () => {
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white">
           Projects
         </h2>
+        <p className="text-gray-600 dark:text-gray-300 text-center mb-12">
+          Stay tuned, some exciting projects are coming very soon!
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <a
