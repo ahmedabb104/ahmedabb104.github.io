@@ -6,11 +6,23 @@ const Projects = () => {
   // Replace with your actual project data
   const projects = [
     {
+      title: 'AI Image + Video Detection',
+      description: 'Building and deploying a model to detect which images and videos are AI generated. Use cases include social media, dating apps, browsing, etc; In progress...',
+      image: '/aidetection.jpg'
+      // link: ''
+    },
+    {
+      title: 'Image Style Transfer',
+      description: 'In progress...',
+      image: '/image_style_transfer.png'
+      // link: ''
+    },
+    {
       title: 'Predicting NHL Concussions',
-      description: 'Likelihood of concussions in the next season using ML on an imbalanced dataset of 10000+ NHL player records',
+      description: 'Likelihood of players getting concussions in the next NHL season using ML on an imbalanced dataset',
       image: '/nhl_concussions.png',
       link: 'https://github.com/ahmedabb104/NHLConcussionRiskPredictor/blob/main/docs/report.pdf'
-    },
+    }
   ]
 
   return (
