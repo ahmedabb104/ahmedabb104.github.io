@@ -6,13 +6,13 @@ const Projects = () => {
   // Replace with your actual project data
   const projects = [
     {
-      title: 'AI Image + Video Detection',
-      description: 'Building and deploying a model to detect which images and videos are AI generated. Use cases include social media, dating apps, browsing, etc; In progress...',
-      image: '/aidetection.jpg'
+      title: 'AI Agent Civilization',
+      description: 'In progress...',
+      image: '/image_style_transfer.png'
       // link: ''
     },
     {
-      title: 'Image Style Transfer',
+      title: 'Image Style Transfer: Parameterized Brushstrokes',
       description: 'In progress...',
       image: '/image_style_transfer.png'
       // link: ''
