@@ -14,8 +14,8 @@ const Projects = () => {
     {
       title: 'Image Style Transfer: Parameterized Brushstrokes',
       description: 'In progress...',
-      image: '/image_style_transfer.png'
-      // link: ''
+      image: '/image_style_transfer.png',
+      link: 'https://github.com/ahmedabb104/brushstroke-parameterized-style-transfer'
     },
     {
       title: 'Predicting NHL Concussions',
