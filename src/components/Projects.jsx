@@ -6,8 +6,8 @@ const Projects = () => {
   // Replace with your actual project data
   const projects = [
     {
-      title: 'AI Agent Civilization',
-      description: 'In progress...',
+      title: 'AI Agent: OpenForge',
+      description: 'An AI agent that contributes to open source projects. In progress...',
       image: '/image_style_transfer.png'
       // link: ''
     },
