@@ -6,8 +6,8 @@ const Projects = () => {
   // Replace with your actual project data
   const projects = [
     {
-      title: 'OpenClaw Github Contributor',
-      description: 'An OpenClaw agent that contributes to open source projects. In progress...',
+      title: 'Personal OpenClaw Agent',
+      description: 'An OpenClaw agent that contributes to open source projects for me. In progress...',
       image: '/image_style_transfer.png'
       // link: ''
     },
