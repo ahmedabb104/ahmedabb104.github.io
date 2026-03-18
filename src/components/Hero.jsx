@@ -110,12 +110,12 @@ const Hero = () => {
           >
             Get In Touch
           </button>
-          <button
+          {/* <button
             onClick={openResume}
             className="px-8 py-3 bg-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-700 text-gray-900 dark:text-white border-2 border-primary-600 dark:border-primary-400 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
           >
             View Resume
-          </button>
+          </button> */}
         </div>
 
         {/* Scroll Indicator */}
