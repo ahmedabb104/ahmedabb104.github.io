@@ -7,9 +7,9 @@ const Projects = () => {
   const projects = [
     {
       title: 'Personal OpenClaw Agent',
-      description: 'An OpenClaw agent that contributes to open source projects for me. In progress...',
-      image: '/image_style_transfer.png'
-      // link: ''
+      description: 'An OpenClaw agent that contributes to open source projects for me.',
+      image: '/openclaw.png',
+      link: 'https://github.com/ahmedabbas104'
     },
     {
       title: 'Image Style Transfer: Parameterized Brushstrokes',
