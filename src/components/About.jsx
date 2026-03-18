@@ -23,8 +23,7 @@ const About = () => {
             My main interest areas are agentic workflows and reinforcement learning. I'm constantly expanding my knowledge by reading the latest research papers in AI.
           </p>
           <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mt-4">
-            Throughout my early career, I have successfully deployed several features end-to-end, from ML models and pipelines to AI Agents serving hundreds of users. I thrive in fast-paced collaborative 
-            startup environments and enjoy building scalable solutions to challenging problems.
+            Throughout my early career, I've achieved real business outcomes. This includes a causal inference analysis that proved <b>millions ($) in annual profit</b> and an ML pipeline serving hundreds of users.
           </p>
         </div>
       </div>
