@@ -25,4 +25,5 @@ dist-ssr
 
 README.md
 SETUP.md
-
+CUSTOM_DOMAIN_SETUP.md
+.env
