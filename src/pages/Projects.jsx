@@ -1,9 +1,21 @@
 const projects = [
   {
     category: 'Creative Tech',
+    title: 'MiroFishRL',
+    description:
+      'Working on a reinforcement learning extension of MiroFish (an AI prediction engine using agent swarm simulation to predict the future in a digital world)',
+    link: 'https://github.com/ahmedabb104/MiroFishRL',
+    tags: ['Reinforcement Learning', 'GraphRAG', 'Multi-Agent'],
+    image:
+      '/mirofishRL.jpg',
+    imageAlt: '',
+    imagePosition: 'left',
+  },
+  {
+    category: 'Creative Tech',
     title: 'Parameterized Brushstrokes',
     description:
-      'Image style transfer. A reimplementation of the paper by Kotovenko et al. (2021): "Rethinking Style Transfer: From Pixels to Parameterized Brushstrokes"',
+      'Image style transfer. A reimplementation of the paper by Kotovenko et al. (2021): "Rethinking Style Transfer: From Pixels to Parameterized Brushstrokes" (in progress)',
     link: 'https://github.com/ahmedabb104/brushstroke-parameterized-style-transfer',
     tags: ['PyTorch', 'VGG19', 'Gradio'],
     image:
@@ -17,7 +29,7 @@ const projects = [
     description:
       'An OpenClaw agent that contributes to open-source projects on GitHub. (abandoned)',
     link: 'https://github.com/ahmedabbas104',
-    tags: ['OpenClaw'],
+    tags: ['OpenClaw', 'Tailscale'],
     image:
       '/openclaw.png',
     imageAlt: '',
@@ -80,7 +92,7 @@ function ProjectCard({ project }) {
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="font-label text-[10px] uppercase bg-surface-container-highest px-3 py-1.5 rounded-full text-on-surface"
+              className="font-label text-[10px] bg-surface-container-highest px-3 py-1.5 rounded-full text-on-surface"
             >
               {tag}
             </span>
