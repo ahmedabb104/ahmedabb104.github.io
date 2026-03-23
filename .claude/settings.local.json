@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__stitch__get_screen",
+      "WebFetch(domain:contribution.usercontent.google.com)",
+      "Bash(curl -sL \"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sXzBkNzc0OTY4NmU0NzQwMDJiYTg0NzNkYWY2MTVhZDBhEgsSBxDKjuzjvQ0YAZIBJAoKcHJvamVjdF9pZBIWQhQxMzA5MTkwMDgyNDEwNDYxMDE4Mw&filename=&opi=89354086\" -o /tmp/stitch_home.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -sL \"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2IwZGQ5Mjc2NjVkMzQyZDA5Y2YzZmQxZmY2NjRlYTk4EgsSBxDKjuzjvQ0YAZIBJAoKcHJvamVjdF9pZBIWQhQxMzA5MTkwMDgyNDEwNDYxMDE4Mw&filename=&opi=89354086\" -o /tmp/stitch_projects.html)",
+      "Bash(curl -sL \"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2I4ODQ2MGYyZGRiYjQ5YWY4NGQ3MjM3MTBmMmY0YTZkEgsSBxDKjuzjvQ0YAZIBJAoKcHJvamVjdF9pZBIWQhQxMzA5MTkwMDgyNDEwNDYxMDE4Mw&filename=&opi=89354086\" -o /tmp/stitch_experience.html)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npm uninstall:*)"
+    ]
+  }
+}

@@ -1,46 +1,17 @@
-import { useState, useEffect } from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Experience from './components/Experience'
-import Projects from './components/Projects'
-import Skills from './components/Skills'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import { Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Experience from './pages/Experience'
 
-function App() {
-  const [darkMode, setDarkMode] = useState(() => {
-    // Check localStorage or default to dark mode
-    const saved = localStorage.getItem('darkMode')
-    return saved ? JSON.parse(saved) : true
-  })
-
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-    localStorage.setItem('darkMode', JSON.stringify(darkMode))
-  }, [darkMode])
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode)
-  }
-
+export default function App() {
   return (
-    <div className="min-h-screen">
-      <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Skills />
-      <Contact />
-      <Footer />
-    </div>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/experience" element={<Experience />} />
+      </Route>
+    </Routes>
   )
 }
-
-export default App
-
