@@ -8,7 +8,7 @@ const roles = [
     description:
       'Excited to be returning to Thri5 this April!',
     tags: [],
-    logo: 'https://media.licdn.com/dms/image/v2/D560BAQEnAIZe8Ike8Q/company-logo_200_200/company-logo_200_200/0/1738599773002/thri5inc_logo?e=1775692800&v=beta&t=0JzuYu1j55I0BuQL-CouITYQysqPs6FIqEyOoMk6qHo',
+    logo: 'public/thri5.jpg',
   },
   {
     period: 'May 2025 — Dec 2025',
@@ -16,8 +16,8 @@ const roles = [
     company: 'Thri5',
     description:
       "At this startup, I did a little bit of everything as an intern. \nDesigned and built dozens of weekly data detections (rules + ML, scoring) \nDesigned and built a scalable ML pipeline and explored building AI agents \nAnalyzed large datasets to extract actionable insights for non-technical stakeholders  \nTook ownership of a causal inference analysis on our first customer pilot (thus securing the startup's first commercial deal).",
-    tags: ['Snowflake SQL', 'Airflow', 'ML', 'MLOps', 'Causal Inference', 'Data Analysis', 'AI Agents'],
-    logo: 'https://media.licdn.com/dms/image/v2/D560BAQEnAIZe8Ike8Q/company-logo_200_200/company-logo_200_200/0/1738599773002/thri5inc_logo?e=1775692800&v=beta&t=0JzuYu1j55I0BuQL-CouITYQysqPs6FIqEyOoMk6qHo',
+    tags: ['Snowflake SQL', 'Airflow', 'Data Analysis', 'ML', 'MLOps', 'Causal Inference', 'AI Agents'],
+    logo: 'public/thri5.jpg',
   },
   {
     period: 'May 2024 - Aug 2024',
@@ -26,7 +26,7 @@ const roles = [
     description:
       'Developed an internal visualization tool to analyze network traffic stats over time, which aided in identifying the root-cause of at least 5 customer-reported router issues',
     tags: ['Wireshark', 'Scapy', 'pytest', 'Data Analysis', 'Data Visualization'],
-    logo: 'https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1775692800&v=beta&t=4FtNVxtqT-tcShXzq4I-f4J_J5eneolaaSFoW-uq7Uc',
+    logo: 'public/nokia.jpg',
   },
   {
     period: 'May 2023 - Aug 2023',
@@ -35,7 +35,7 @@ const roles = [
     description:
       'Tested dozens of router network features, writing test cases and automation scripts to validate functionality and performance',
     tags: ['Test Automation', 'pytest', 'Network Protocols'],
-    logo: 'https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1775692800&v=beta&t=4FtNVxtqT-tcShXzq4I-f4J_J5eneolaaSFoW-uq7Uc',
+    logo: 'public/nokia.jpg',
   },
   {    period: 'May 2022 - Aug 2022',
     title: 'Software Engineer',
@@ -43,7 +43,7 @@ const roles = [
     description:
       'Developed scrapers to pull and store tool health data, allowing the KPI dashboard to display health statuses of internal software \nFront-end development to improve data visualization \nUI/UX wireframing for an internal KPI dashboard',
     tags: ['Flask', 'React', 'Figma'],
-    logo: 'https://media.licdn.com/dms/image/v2/D560BAQFN5zWvmGOc8Q/company-logo_200_200/B56ZxOB0zcJsAI-/0/1770835628486/td_logo?e=1775692800&v=beta&t=JrKPHXEI76FFc2ngBh3BsBR50a9sEZtllmiuJQzwXcg',}
+    logo: 'public/td.jpg',}
 ]
 
 const academics = [
