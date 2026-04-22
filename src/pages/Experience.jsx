@@ -8,7 +8,7 @@ const roles = [
     description:
       'Excited to be returning to Thri5 this April!',
     tags: [],
-    logo: 'public/thri5.jpg',
+    logo: '/thri5.jpg',
   },
   {
     period: 'May 2025 — Dec 2025',
@@ -17,7 +17,7 @@ const roles = [
     description:
       "At this startup, I did a little bit of everything as an intern. \nDesigned and built dozens of weekly data detections (rules + ML, scoring) \nDesigned and built a scalable ML pipeline and explored building AI agents \nAnalyzed large datasets to extract actionable insights for non-technical stakeholders  \nTook ownership of a causal inference analysis on our first customer pilot (thus securing the startup's first commercial deal).",
     tags: ['Snowflake SQL', 'Airflow', 'Data Analysis', 'ML', 'MLOps', 'Causal Inference', 'AI Agents'],
-    logo: 'public/thri5.jpg',
+    logo: '/thri5.jpg',
   },
   {
     period: 'May 2024 - Aug 2024',
@@ -26,7 +26,7 @@ const roles = [
     description:
       'Developed an internal visualization tool to analyze network traffic stats over time, which aided in identifying the root-cause of at least 5 customer-reported router issues',
     tags: ['Wireshark', 'Scapy', 'pytest', 'Data Analysis', 'Data Visualization'],
-    logo: 'public/nokia.jpg',
+    logo: '/nokia.jpg',
   },
   {
     period: 'May 2023 - Aug 2023',
@@ -35,7 +35,7 @@ const roles = [
     description:
       'Tested dozens of router network features, writing test cases and automation scripts to validate functionality and performance',
     tags: ['Test Automation', 'pytest', 'Network Protocols'],
-    logo: 'public/nokia.jpg',
+    logo: '/nokia.jpg',
   },
   {    period: 'May 2022 - Aug 2022',
     title: 'Software Engineer',
@@ -43,7 +43,7 @@ const roles = [
     description:
       'Developed scrapers to pull and store tool health data, allowing the KPI dashboard to display health statuses of internal software \nFront-end development to improve data visualization \nUI/UX wireframing for an internal KPI dashboard',
     tags: ['Flask', 'React', 'Figma'],
-    logo: 'public/td.jpg',}
+    logo: '/td.jpg',}
 ]
 
 const academics = [
