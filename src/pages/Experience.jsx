@@ -2,12 +2,12 @@ import { useState, useEffect, useRef } from 'react'
 
 const roles = [
   {
-    period: 'Apr 2026',
+    period: 'Apr 2026 — Present',
     title: 'AI/ML Engineer',
     company: 'Thri5',
     description:
-      'Excited to be returning to Thri5 this April!',
-    tags: [],
+      'Thri5 is a seed stage AI startup that is the AI layer for retail execution. \n We are rapidly expanding to new large scale customers.',
+    tags: ['AI Agents', 'Business Intelligence', 'PostgreSQL', 'Snowflake SQL', 'Airflow', 'Data Analysis'],
     logo: '/thri5.jpg',
   },
   {
@@ -20,16 +20,16 @@ const roles = [
     logo: '/thri5.jpg',
   },
   {
-    period: 'May 2024 - Aug 2024',
+    period: 'May 2024 — Aug 2024',
     title: 'Deep Packet Inspection QA Engineer',
     company: 'Nokia',
     description:
-      'Developed an internal visualization tool to analyze network traffic stats over time, which aided in identifying the root-cause of at least 5 customer-reported router issues',
+      'Developed an internal dashboard with clean visualizations to analyze network traffic stats over time, which aided in identifying the root-cause of at least 5 customer-reported router bugs.',
     tags: ['Wireshark', 'Scapy', 'pytest', 'Data Analysis', 'Data Visualization'],
     logo: '/nokia.jpg',
   },
   {
-    period: 'May 2023 - Aug 2023',
+    period: 'May 2023 — Aug 2023',
     title: 'Service Router Platform Test Developer',
     company: 'Nokia',
     description:
@@ -37,7 +37,7 @@ const roles = [
     tags: ['Test Automation', 'pytest', 'Network Protocols'],
     logo: '/nokia.jpg',
   },
-  {    period: 'May 2022 - Aug 2022',
+  {    period: 'May 2022 — Aug 2022',
     title: 'Software Engineer',
     company: 'TD Bank',
     description:

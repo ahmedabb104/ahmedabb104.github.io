@@ -95,11 +95,11 @@ export default function Home() {
             </h2>
             <div className="space-y-4 text-xl text-on-surface-variant font-light leading-relaxed">
               <p>
-                At Thri5, an early-stage AI startup, as a <span className="text-on-surface font-semibold">Data Scientist</span>, I built the ML pipeline
+                At Thri5, a seed stage AI startup, as a <span className="text-on-surface font-semibold">Data Scientist</span>, I built the ML pipeline
                 and also proved <span className="text-on-surface font-semibold">millions ($) in annual profit</span> via a causal inference analysis.
               </p>
               <p>Previous experience at Nokia and TD Bank.</p>
-              <p>Finishing off my Master in Data Science/AI @ UWaterloo this April.</p>
+              <p>Recent UWaterloo graduate in Master of Data Science/AI.</p>
               <p>
                 You can reach me via{' '}
                 <a
@@ -123,7 +123,7 @@ export default function Home() {
 
           <div className="fade-up space-y-6" style={{ animationDelay: '300ms' }}>
             <div className="flex flex-wrap gap-3">
-              {['Business Intelligence', 'Data Analysis', 'AI Agents', 'Reinforcement Learning'].map(
+              {['Business Intelligence', 'Data Analysis', 'AI Agents', 'Deep Learning'].map(
                 (skill) => (
                   <span
                     key={skill}
