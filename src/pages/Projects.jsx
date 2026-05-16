@@ -15,9 +15,9 @@ const projects = [
     category: 'Creative Tech',
     title: 'Parameterized Brushstrokes',
     description:
-      'Image style transfer. A reimplementation of the paper by Kotovenko et al. (2021): "Rethinking Style Transfer: From Pixels to Parameterized Brushstrokes" (in progress)',
-    link: 'https://github.com/ahmedabb104/brushstroke-parameterized-style-transfer',
-    tags: ['PyTorch', 'VGG19', 'Gradio'],
+      'Image style transfer. A reimplementation of the paper by Kotovenko et al. (2021): "Rethinking Style Transfer: From Pixels to Parameterized Brushstrokes". Hosted on Hugging Face Spaces using Gradio.',
+    link: 'https://huggingface.co/spaces/ahmedabb101/brushstroke-style-transfer',
+    tags: ['PyTorch', 'VGG19', 'Hugging Face Gradio'],
     image:
       'https://raw.githubusercontent.com/justanhduc/brushstroke-parameterized-style-transfer/refs/heads/master/assets/golden-gate-bridge-starry_night_1000_0.jpg',
     imageAlt: '',
