@@ -41,38 +41,35 @@ function GlitchWord({ text }) {
   )
 }
 
-function timeAgo(dateStr) {
-  const seconds = Math.floor((Date.now() - new Date(dateStr)) / 1000)
-  if (seconds < 60) return `${seconds}s ago`
-  const minutes = Math.floor(seconds / 60)
-  if (minutes < 60) return `${minutes}m ago`
-  const hours = Math.floor(minutes / 60)
-  if (hours < 24) return `${hours}h ago`
-  const days = Math.floor(hours / 24)
-  if (days < 30) return `${days}d ago`
-  const months = Math.floor(days / 30)
+function daysAgo(dateStr) {
+  const [y, m, d] = dateStr.split('-').map(Number)
+  const then = new Date(y, m - 1, d)
+  const today = new Date()
+  today.setHours(0, 0, 0, 0)
+  const diff = Math.round((today - then) / 86400000)
+  if (diff <= 0) return 'today'
+  if (diff === 1) return 'yesterday'
+  if (diff < 30) return `${diff}d ago`
+  const months = Math.floor(diff / 30)
   if (months < 12) return `${months}mo ago`
   return `${Math.floor(months / 12)}y ago`
 }
 
-function useLastCommit() {
-  const [state, setState] = useState({ time: null, loading: true })
+function useLastContribution() {
+  const [state, setState] = useState({ date: null, loading: true })
 
   useEffect(() => {
-    fetch('https://api.github.com/users/ahmedabb104/events/public')
+    fetch('/last-commit.json')
       .then((r) => r.json())
-      .then((events) => {
-        const push = events.find((e) => e.type === 'PushEvent')
-        setState({ time: push?.created_at ?? null, loading: false })
-      })
-      .catch(() => setState({ time: null, loading: false }))
+      .then((data) => setState({ date: data.date, loading: false }))
+      .catch(() => setState({ date: null, loading: false }))
   }, [])
 
   return state
 }
 
 export default function Home() {
-  const { time, loading } = useLastCommit()
+  const { date, loading } = useLastContribution()
 
   return (
     <main className="pt-32 px-8 max-w-6xl mx-auto pb-24">
@@ -156,10 +153,10 @@ export default function Home() {
                 commit
               </span>
               <span className="font-label text-[0.65rem] uppercase tracking-widest text-on-surface-variant">
-                Last Commit
+                Last Contribution
               </span>
               <span className="font-label text-[0.65rem] uppercase tracking-widest text-primary ml-1">
-                {loading ? '...' : time ? `— ${timeAgo(time)}` : '— unavailable'}
+                {loading ? '...' : date ? `— ${daysAgo(date)}` : '— unavailable'}
               </span>
             </div>
           </div>
