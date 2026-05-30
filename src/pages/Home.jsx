@@ -82,7 +82,7 @@ export default function Home() {
               Hey, I'm <GlitchWord text="Ahmed" />
             </h1>
             <p className="font-label text-primary uppercase tracking-[0.2em] text-sm">
-              ML Engineer + Data Scientist | UWaterloo
+              AI/ML Engineer + Data Scientist | UWaterloo
             </p>
           </div>
 
@@ -92,7 +92,7 @@ export default function Home() {
             </h2>
             <div className="space-y-4 text-xl text-on-surface-variant font-light leading-relaxed">
               <p>
-                At Thri5, a seed stage AI startup, as a <span className="text-on-surface font-semibold">Data Scientist</span>, I built the ML pipeline
+                At Thri5, a seed stage AI startup, I built the ML pipeline
                 and also proved <span className="text-on-surface font-semibold">millions ($) in annual profit</span> via a causal inference analysis.
               </p>
               <p>Previous experience at Nokia and TD Bank.</p>
@@ -120,7 +120,7 @@ export default function Home() {
 
           <div className="fade-up space-y-6" style={{ animationDelay: '300ms' }}>
             <div className="flex flex-wrap gap-3">
-              {['Business Intelligence', 'Data Analysis', 'AI Agents', 'Deep Learning'].map(
+              {['Domain Knowledge', 'Data Analysis', 'AI Agents', 'Deep Learning'].map(
                 (skill) => (
                   <span
                     key={skill}
@@ -153,7 +153,7 @@ export default function Home() {
                 commit
               </span>
               <span className="font-label text-[0.65rem] uppercase tracking-widest text-on-surface-variant">
-                Last Contribution
+                Last Commit
               </span>
               <span className="font-label text-[0.65rem] uppercase tracking-widest text-primary ml-1">
                 {loading ? '...' : date ? `— ${daysAgo(date)}` : '— unavailable'}

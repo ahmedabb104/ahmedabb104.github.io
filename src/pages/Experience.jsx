@@ -15,7 +15,7 @@ const roles = [
     title: 'Data Scientist',
     company: 'Thri5',
     description:
-      "At this startup, I did a little bit of everything as an intern. \nDesigned and built dozens of weekly data detections (rules + ML, scoring) \nDesigned and built a scalable ML pipeline and explored building AI agents \nAnalyzed large datasets to extract actionable insights for non-technical stakeholders  \nTook ownership of a causal inference analysis on our first customer pilot (thus securing the startup's first commercial deal).",
+      "At this startup, I did a little bit of everything as an intern. \nDesigned and built dozens of weekly data detections (rules + ML, scoring) \nDesigned and built a scalable ML pipeline and explored building AI agents \nAnalyzed large datasets to extract actionable insights for non-technical stakeholders  \nLed a causal inference analysis on our first customer pilot, helping secure the startup's first commercial deal.",
     tags: ['Snowflake SQL', 'Airflow', 'Data Analysis', 'ML', 'MLOps', 'Causal Inference', 'AI Agents'],
     logo: '/thri5.jpg',
   },

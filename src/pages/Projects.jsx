@@ -1,18 +1,6 @@
 const projects = [
   {
     category: 'Creative Tech',
-    title: 'MiroFishRL',
-    description:
-      'Working on a reinforcement learning extension of MiroFish (an AI prediction engine using agent swarm simulation to predict the future in a digital world)',
-    link: 'https://github.com/ahmedabb104/MiroFishRL',
-    tags: ['Reinforcement Learning', 'GraphRAG', 'Multi-Agent'],
-    image:
-      '/mirofishRL.jpg',
-    imageAlt: '',
-    imagePosition: 'left',
-  },
-  {
-    category: 'Creative Tech',
     title: 'Parameterized Brushstrokes',
     description:
       'Image style transfer. A reimplementation of the paper by Kotovenko et al. (2021): "Rethinking Style Transfer: From Pixels to Parameterized Brushstrokes". Hosted on Hugging Face Spaces using Gradio.',
